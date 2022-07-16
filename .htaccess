@@ -1,0 +1,10 @@
+php_value display_errors On
+php_value mbstring.http_input auto
+php_value date.timezone America/New_York
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond %{REQUEST_URI} !^/images
+RewriteRule ^(tags|index|contact|registration|users|category|comments|mycomments|updatecomment|profile|post|createpost|mypost|updatepost|search|login|signup|logout|pdf_print|pdf_download|favorites|")$ $1.php [NC,L]
+ErrorDocument 404 /cms/includes/Errors/404.html

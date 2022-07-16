@@ -1,0 +1,3 @@
+RewriteEngine on
+
+RewriteRule ^(index|users|updateuser|deleteuser|author|viewpost|createpost|updatepost|deletepost|categories|deletecategory|comments|updatecomment|deletecomment|profile)$ $1.php [NC,L]

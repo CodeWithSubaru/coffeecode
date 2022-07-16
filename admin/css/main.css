@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Quicksand", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: bold;
+}
+
+#navbarDropdown::after {
+  display: none;
+}
+
+.form-group {
+  margin-top: 1rem;
+}
+
+.tox-statusbar__branding {
+  display: none;
+}
+
+#layoutSidenav {
+  background: #d0b49f;
+}
+
+thead tr,
+th,
+td {
+  border: none;
+}
+
+.breadcrumb-item {
+  color: #999;
+}
